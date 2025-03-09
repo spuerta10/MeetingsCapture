@@ -1,0 +1,11 @@
+[project]
+name = "MeetingsCapture"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-generativeai>=0.8.4",
+    "pandas>=2.2.3",
+    "pillow>=11.1.0",
+]
