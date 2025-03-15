@@ -279,6 +279,7 @@ dependencies = [
     { name = "google-generativeai" },
     { name = "pandas" },
     { name = "pillow" },
+    { name = "pyconfparser" },
 ]
 
 [package.metadata]
@@ -286,6 +287,7 @@ requires-dist = [
     { name = "google-generativeai", specifier = ">=0.8.4" },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "pillow", specifier = ">=11.1.0" },
+    { name = "pyconfparser", git = "https://github.com/spuerta10/PyConfParser.git" },
 ]
 
 [[package]]
@@ -471,6 +473,14 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/1d/67/6afbf0d507f73c32d21084a79946bfcfca5fbc62a72057e9c23797a737c9/pyasn1_modules-0.4.1.tar.gz", hash = "sha256:c28e2dbf9c06ad61c71a075c7e0f9fd0f1b0bb2d2ad4377f240d33ac2ab60a7c", size = 310028 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/77/89/bc88a6711935ba795a679ea6ebee07e128050d6382eaa35a0a47c8032bdc/pyasn1_modules-0.4.1-py3-none-any.whl", hash = "sha256:49bfa96b45a292b711e986f222502c1c9a5e1f4e568fc30e2574a6c7d07838fd", size = 181537 },
+]
+
+[[package]]
+name = "pyconfparser"
+version = "0.1.0"
+source = { git = "https://github.com/spuerta10/PyConfParser.git#07e6f052c28644e69b2b4a0b2adbc9e0fad92456" }
+dependencies = [
+    { name = "pydantic" },
 ]
 
 [[package]]
