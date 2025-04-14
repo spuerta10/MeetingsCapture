@@ -4,12 +4,20 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [
-    "google-generativeai>=0.8.4",
-    "pandas>=2.2.3",
-    "pillow>=11.1.0",
-    "pyconfparser",
-]
+dependencies = []
 
 [tool.uv.sources]
 pyconfparser = { git = "https://github.com/spuerta10/PyConfParser.git" }
+
+[dependency-groups]
+dev = [
+    "google-generativeai>=0.8.4",
+    "ipykernel>=6.29.5",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "pillow>=11.1.0",
+    "pre-commit>=4.2.0",
+    "pyconfparser",
+    "streamlit>=1.44.1",
+    "streamlit-carousel>=1.1.2",
+]
