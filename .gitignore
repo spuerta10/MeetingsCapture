@@ -1,4 +1,4 @@
 __pycache__/
 .venv/
 src/config.py
-conf/
+*/conf/*.json
