@@ -29,6 +29,5 @@ class ImagesPreviewView(BaseView):
             interval=3000,
             pause="hover",
             wrap=True,
-            container_height=700,
             width=1,
         )
